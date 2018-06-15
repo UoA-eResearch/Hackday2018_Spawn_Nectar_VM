@@ -3,6 +3,7 @@ from keystoneauth1.identity import v3
 from keystoneauth1 import session
 import openstack.cloud
 import json
+#Docs https://docs.openstack.org/openstacksdk/latest/user/connection.html
 
 def example_create_own_security_group
   #Check if security group exists

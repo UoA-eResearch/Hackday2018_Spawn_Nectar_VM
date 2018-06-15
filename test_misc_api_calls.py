@@ -7,6 +7,7 @@ import novaclient.v2.client
 from neutronclient.v2_0 import client
 import json
 
+#Docs https://docs.openstack.org/python-openstackclient/pike/index.html
 
 def list_keypairs():
   print "***********Keypairs****************"
@@ -88,7 +89,6 @@ print image
 print "**********Get a flavor ID by name ***************"
 flavor = novac.flavors.find(name='m2.medium')
 print flavor
-keypair_id = 'Nectar_Tenants' #ID and name look to be the same.
 
 
 
